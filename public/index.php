@@ -20,7 +20,7 @@ class csv {
         ini_set('auto_detect_line_endings',TRUE);
 
 
-        $fileName = 'AlaskaHospitals.csv';
+        $fileName = 'SalesJan2009.csv';
         if (($handle = fopen($fileName, 'r')) !== FALSE)
         {
             while (!feof($handle)) {
